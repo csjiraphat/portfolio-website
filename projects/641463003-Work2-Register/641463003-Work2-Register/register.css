@@ -1,0 +1,143 @@
+
+body {
+    background-image: url(../pexels-benjamin-suter-3617500.jpg);
+    background-size: 50%;
+}
+.head{
+    text-align: left;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 1px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1000px;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom: 0.01cm outset rgb(2, 2, 2);
+    font-size: medium;
+    color: azure;
+    padding: 10px; 
+    background-color: purple;
+    text-align: left;
+}
+img {
+    display: inline-flex;
+    width: 20%;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 2px;
+}
+.input{
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 1003px;
+    height: 700px; 
+    padding: 10px;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[name="submit"]{
+    width: 155px;
+    height: 38px;
+    color: white;
+    background: purple;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+input[name="clear"]{
+    width: 60px;
+    height: 38px;
+    margin-top: 0px;
+    color: white;
+    background: purple;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+input[name="confirmpass"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 2px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214); 
+    margin-left: 0px;
+    font-size: 16px; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[name="name"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214);
+    margin-left: 0px;
+    font-size: 16px; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[name="emali"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214);
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[name="pass"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214);
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[name="birthday"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214);
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[name="age"] {
+    width: 990px;
+    height: 20px;
+    margin-top: 0px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 6px;
+    border: 2px solid rgb(214, 214, 214);
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+
+

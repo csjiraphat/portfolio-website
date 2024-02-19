@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <script>
+        function change(val) {
+            document.getElementById('textInput').innerHTML = val;
+        };
+    </script>
+</head>
+    <style>
+    input[type=range] {
+        accent-color: purple;
+    }
+    </style>
+
+<body>
+    <form action="" method="get">
+        <div class="regis">
+            <div class="head">
+                <div class="content">
+                    <p id="cont_regis"><strong>ลงทะเบียนผู้ใช้งาน</strong></p>
+                </div>
+
+            </div>
+            <div class="input">
+                รหัสผู้ใช้
+                <input type="text" name="emali" id="emali" placeholder="Gmail@address.com" required autofocus><br>
+                รหัสผ่าน
+                <input type="password" name="pass" id="pass" maxlength="10" placeholder="รหัสผ่าน" required autofocus
+                    value=""><br>
+                ยืนยันรหัสผ่าน
+                <input type="password" name="confirmpass" id="confirmpass" maxlength="10" placeholder="ยืนยันรหัสผ่าน"
+                    required autofocus value=""><br>
+                ชื่อ-นามสกุล
+                <input type="name" name="name" id="sname" maxlength="10" placeholder="ชื่อ-นามสกุล" required autofocus
+                    value=""><br>
+                วันเกิด
+                <input type="text" name="birthday" id="birthday" maxlength="10" placeholder="mm/dd/yyyy-- -- --"
+                    required autofocus value=""><br>
+                อายุ
+                <input type="text" name="age" id="age" maxlength="10" placeholder="อายุ" required autofocus
+                    value=""><br>
+                <div class="sex_head">
+                    <p><strong>เพศ</strong></p>
+                    <div class="sex_content">
+                        <div class="sex">
+                            <input type="radio" name="sex" id="ชาย" value="Y" checked
+                                onclick="document.getElementById('detail').style.display='none';">
+                            <label for="ชาย">ชาย</label>
+                            <input type="radio" name="sex" id="หญิง" value="Y"
+                                onclick="document.getElementById('detail').style.display='none';">
+                            <label for="หญิง">หญิง</label>
+                        </div>
+
+                        
+                        <p><strong>สถาณภาพ</strong></p>
+                            <div class="status">
+                                    <input type="radio" name="status" id="โสด" value="S" checked
+                                        onclick="document.getElementById('detail').style.display='none';">
+                                    <label for="โสด">โสด</label>
+
+                                    <input type="radio" name="status" id="สมรส" value="M"
+                                        onclick="document.getElementById('detail').style.display='none';">
+                                    <label for="สมรส">สมรส</label>
+
+                                    <input type="radio" name="status" id="หย่าร้าง" value="D"
+                                        onclick="document.getElementById('detail').style.display='none';">
+                                    <label for="หย่าร้าง">หย่าร้าง</label>
+                                </div>
+                                <p><label for="range_height">ส่วนสูง: </label> <input type="range" name="height"
+                                        class="slider" min="0" max="200" value="155" onchange="change(this.value);">
+                                    <span id="textInput">155</span>cm
+                                </p>
+                                
+                                
+                                    ประเภทผู้ใช้
+                                    <select name="user_type" id="user_type">
+                                        <option value="disabled selected hidden">เลือกประเภทผู้ใช้</option>
+                                        <option value="นักศึกษา">นักศึกษา</option>
+                                        <option value="อาจารย์">อาจารย์</option>
+                                        <option value="เจ้าหน้าที่">เจ้าหน้าที่</option>
+                                        <option value="ผู้ใช้ทั่วไป">ผู้ใช้ทั่วไป</option>
+                                    </select>
+                               
+                                
+                                <div class="checkbox"><br>
+                                    <form action="" method="get">
+                                        <input type="checkbox" name="accept" id="accept" value="accept">ยอมรับเงื่อนไขข้อตกลง
+                                    </div>
+                                
+                                <div class="button1">
+                                        <input type="submit" name="submit" value="ยืนยันสมัครสมาชิก">  <input type="reset" name="clear" value="เคลียร์"><br><br>  
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+</body>
+</html>
